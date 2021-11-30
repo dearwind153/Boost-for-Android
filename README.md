@@ -37,17 +37,17 @@ For NDK from r16 to r18b, clang with c++_static runtime library is used, all arc
 For NDK from r19 and up, clang with c++_shared runtime library is used, all architectures are supported.
 
 
-FOR NDK 19,20,21,22 complie method
-================================================================================================
-### NDK 19,20,21,22 (official)
+    FOR NDK 19,20,21,22 complie method
+    ================================================================================================
+    ### NDK 19,20,21,22 (official)
 
-change build-android.sh
-------------------------------------------------------------------------------------------------
+    change build-android.sh
+    ------------------------------------------------------------------------------------------------
 
 
-BOOST_VER1=1
-BOOST_VER2=68   <=  diff
-BOOST_VER3=0
+    BOOST_VER1=1
+    BOOST_VER2=68   <=  diff
+    BOOST_VER3=0
 
 
 
@@ -56,14 +56,12 @@ BOOST_VER3=0
     CXXPATH=$AndroidNDKRoot/toolchains/${TOOLCHAIN}/prebuilt/${PlatformOS}-x86_64/bin/clang++
     TOOLSET=clang
     #CONFIG_VARIANT=ndk19  <=  diff
-    
-    
 
-sh ./build-android.sh $NDK20_HOME
+    sh ./build-android.sh $NDK20_HOME
 
 
 
-===============================================================================================
+    ===============================================================================================
 
 # Quick Start
 
