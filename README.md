@@ -37,9 +37,9 @@ For NDK from r16 to r18b, clang with c++_static runtime library is used, all arc
 For NDK from r19 and up, clang with c++_shared runtime library is used, all architectures are supported.
 
 
-FOR NDK 20, complie method
+FOR NDK 19,20,21,22 complie method
 
-### NDK 20 (official)
+### NDK 19,20,21,22 (official)
 
 change build-android.sh
 ================================================================================================
