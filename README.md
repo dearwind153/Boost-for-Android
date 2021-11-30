@@ -43,17 +43,26 @@ FOR NDK 19,20,21,22 complie method
 
 change build-android.sh
 ------------------------------------------------------------------------------------------------
+
+
 BOOST_VER1=1
 BOOST_VER2=68   <=  diff
 BOOST_VER3=0
+
+
 
     "19.0"|"19.1"|"19.2"|"20.0"|"20.1"|"21.0"|"21.1"|"21.2"|"21.3"|"21.4")
     TOOLCHAIN=${TOOLCHAIN:-llvm}
     CXXPATH=$AndroidNDKRoot/toolchains/${TOOLCHAIN}/prebuilt/${PlatformOS}-x86_64/bin/clang++
     TOOLSET=clang
     #CONFIG_VARIANT=ndk19  <=  diff
+    
+    
 
 sh ./build-android.sh $NDK20_HOME
+
+
+
 ===============================================================================================
 
 # Quick Start
